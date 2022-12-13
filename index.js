@@ -17,7 +17,7 @@ const start = async () => {
     await mongoose.connect(
       "mongodb+srv://tpurbanisation:tpurbanisation@cluster0.drplab0.mongodb.net/?retryWrites=true&w=majority"
     );
-    app.listen(80, () => console.log("Server started on port 80"));
+    app.listen(5000, () => console.log("Server started on port 5000"));
   } catch (error) {
     console.error(error);
     process.exit(1);
